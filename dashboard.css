@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color:#1abc9c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#appointments table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#appointments th, #appointments td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#appointments th {
+    background-color:#1abc9c;
+    color: white;
+}
+
+#appointments tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#appointments p {
+    background-color:#1abc9c;
+    font-size: 18px;
+}
